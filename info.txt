@@ -114,5 +114,124 @@ Level 3
 - The target refers for new tab
 - The img src refers to Clickable pic
 
-#REVISITING IMAGE TAG
+#DIV TAG
+
+- Div is a container used for other HTML elements
+- Block Element (Takes full width)
+
+#SPAN TAG
+
+- Span is also a container used for other HTML elements
+- Inline Element (Takes width as per size)
+
+** Homework
+
+~ Add your image on the home page & useful links to 
+  your Github/Linkedin Profiles.
+  Also, improve your project layout
+
+Level 4 (Final Level)
+
+#List in HTML
+
+- Lists are used to represent real life list data.
+1. Unordered 
+~ <ul>
+  <li> Bade tarbuz </li>
+  <li> Santare XD </li>
+  </ul>
+# Bullets mai aayega 
+
+2. Ordered
+~ <ol>
+  <li> Bade tarbuz </li>
+  <li> Mausami </li>
+  </ol>
+# Number/Alphabets mai aayega
+
+#TABLES IN HTML
+
+- Tables are used to represent real life table data.
+
+~ <tr> used to display table ROW
+~ <td> used to display table DATA
+~ <th> used to display table HEADER
+
+For example :-
+~ <table>
+  <tr>
+     <th> Naam </th>
+     <th> Kaidi No. </th>
+  </tr>
+  <tr>
+     <td> Vishal </th>
+     <th> 69 </th>
+  </tr>
+  </table>
+
+#CAPTION IN TABLE
+
+~ <caption> Murder Case </caption>
+
+#Form in HTML
+{*IMP TOPIC}
+
+- Forms are used to collect data from the user
+Eg - sign up/login/help requests/contact Murder
+
+<form>
+Form content
+</form>
+
+# Action in Form
+
+- Action attribute is used to define what action needs to be performed when a form is submitted
+
+<form action="/action.php">
+
+# Form Element : Input
+
+~ <input type="text" placeholder="Tumhara Naam">
+~ <input type="password" placeholder="Lambayi">
+
+#CHECKBOX
+
+~ <label for="id1">
+         <input type="checkbox" value="class XII" name ="class" id="id1">
+    </label>
+
+    <label for="id2"
+        <input type="checkbox" value="class XI" name="class" id="id2">
+    </label>
+
+#SELECT 
+
+~ <select name="city" id="city">
+         <option value="Delhi"> Delhi </option>
+         <option value="Mumbai"> Delhi </option>
+         <option value="Banglore"> Delhi </option>
+    </select>
+
+#submitted
+
+~  <input type="submit" value="submit">
+
+#iframe tag
+
+- Website inside website
+
+~ <iframe src="link">
+For example :-
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=l851XUL7pIy-f2S9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe src="https://google.com">
+#Google will refuse to connect it for some security purpose... :(
+
+
+
+
+
+
+
 
